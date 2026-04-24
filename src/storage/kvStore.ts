@@ -33,7 +33,7 @@ async function kvGet<T>(key: string): Promise<T | null> {
 
   if (!res.ok) return null;
 
-  const data = await res.json();
+  const data = (await res.json()) as { result?: T };
   return (data.result ?? null) as T | null;
 }
 

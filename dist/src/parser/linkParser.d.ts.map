@@ -1,0 +1,1 @@
+{"version":3,"file":"linkParser.d.ts","sourceRoot":"","sources":["../../../src/parser/linkParser.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAC;AAkB7C;;;GAGG;AACH,wBAAgB,iBAAiB,CAAC,GAAG,EAAE,MAAM,GAAG,OAAO,CAEtD;AAED;;;;;GAKG;AACH,wBAAgB,eAAe,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM,GAAG,IAAI,CAa3D;AAED;;;;;GAKG;AACH,wBAAgB,cAAc,CAAC,IAAI,EAAE,MAAM,GAAG,WAAW,CAqBxD"}
