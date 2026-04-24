@@ -1,0 +1,21 @@
+{
+  "name": "wechat-video-downloader",
+  "version": "1.0.0",
+  "description": "微信视频号视频链接提取助手 - 公众号机器人版",
+  "private": true,
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "build": "tsc",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0",
+    "fast-check": "^3.22.0"
+  }
+}
