@@ -13,11 +13,11 @@ const MAX_HISTORY = 50;
 const DEFAULT_LIMIT = 5;
 
 /**
- * 检查 KV 环境变量是否配置
- * 两个环境变量都配置了才返回 true
+ * 检查 KV 是否可用
+ * Cloudflare Workers 环境暂不支持历史记录，始终返回 false
  */
 export function isKvAvailable(): boolean {
-  return !!(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
+  return false;
 }
 
 /**
